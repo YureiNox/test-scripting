@@ -1,2 +1,9 @@
-Write-Host "Hello World!"
-Read-Host "Appuie sur Entrée pour continuer"
+$text = "Yudaol Powershell Fun Script ! 🎉"
+$colors = @("Red", "Green", "Yellow", "Blue", "Magenta", "Cyan", "White")
+
+while ($true) {
+    $color = Get-Random -InputObject $colors
+    Clear-Host
+    Write-Host $text -ForegroundColor $color
+    Start-Sleep -Milliseconds 300
+}
