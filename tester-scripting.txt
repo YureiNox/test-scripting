@@ -1,3 +1,2 @@
-@echo off
-echo Hello World!
-pause
+Write-Host "Hello World!"
+Read-Host "Appuie sur Entrée pour continuer"
